@@ -1,5 +1,10 @@
 
 // Style imports - Import All Required SCSS files Here
-p {
-    color: red;
+@import 'normalise';
+
+
+// Base Colour Modifiers
+
+html, body, h1, h2, h3, h4, h5, h6, p, a, span, div {
+    color: #888888;
 }
