@@ -22,7 +22,14 @@ html, body, h1, h2, h3, h4, h5, h6, p, a, span, div {
 }
 
 .gameCont {
-    height:  calc(100vh - 100px);
-    width: 20px;
-    background-color: #ff0000;
+    height: 620px;
+    width: 820px;
+    background-color: #DDDDDD;
+}
+
+.gameBoard {
+    width: 800px;
+    height: 600px;
+    background-image: url('../imgs/bgTexture.png');
+
 }

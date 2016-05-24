@@ -16,16 +16,13 @@ export default class Button extends React.Component {
                 alignText: 'center',
             },
         };
-    }
 
-    handleClick() {
-        console.log("Button Clicked!");
-
+        // bind functions
     }
 
     render() {
         return (
-            <div style={this.styles.buttonCont} onClick={this.handleClick}>
+            <div style={this.styles.buttonCont} onClick={this.props.onClick}>
                 {this.props.buttonText}
             </div>
         );

@@ -11,6 +11,7 @@ export default class GameBoard extends React.Component {
 
         return (
             <div className="gameBoard">
+                
             </div>
         );
     }
