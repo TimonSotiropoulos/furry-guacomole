@@ -10,6 +10,7 @@ export default class Button extends React.Component {
                 width: '200px',
                 height: '20px',
                 padding: '20px 50px',
+                margin: '0 20px',
                 backgroundColor: '#999999',
                 color: 'white',
                 alignText: 'center',

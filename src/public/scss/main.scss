@@ -1,10 +1,28 @@
 
 // Style imports - Import All Required SCSS files Here
 @import 'normalise';
+@import 'variables';
+@import 'layout';
+@import 'colors';
 
 
 // Base Colour Modifiers
 
 html, body, h1, h2, h3, h4, h5, h6, p, a, span, div {
     color: #888888;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
+.buttonCont {
+    height: 100px;
+}
+
+.gameCont {
+    height:  calc(100vh - 100px);
+    width: 20px;
+    background-color: #ff0000;
 }

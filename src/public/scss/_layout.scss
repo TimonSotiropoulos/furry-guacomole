@@ -1,0 +1,49 @@
+// Layout Styles for the Site
+
+// Flexbox Types
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-row-then-col {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (min-width: $mobile-view-width) {
+    .flex-row-then-col {
+        flex-direction: column;
+    }
+}
+
+.flex-col-then-row {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (min-width: $mobile-view-width) {
+    .flex-col-then-row {
+        flex-direction: row;
+    }
+}
+
+// Flex layout classes
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-start {
+    align-items: flex-start;
+}

@@ -8,26 +8,19 @@ export default class Main extends React.Component {
     constructor(props) {
         super(props);
 
-        this.styles = {
-            main: {
-                width: '100%',
-                height: '100vh',
-                'backgroundColor': '#000'
-            },
-            
-        }
-
     }
 
     render() {
 
         return (
-            <div style={this.styles.main}>
-                <div style={}></div>
-                <Button buttonText='Pause Animation'/>
-                <Button buttonText='Start Animation'/>
+            <div className="flex-col flex-center main black-bg">
+                <div className="flex-row buttonCont flex-center">
+                    <Button buttonText='Pause Animation'/>
+                    <Button buttonText='Start Animation'/>
+                </div>
+                <div className="gameCont">
 
-
+                </div>
             </div>
         );
     }
