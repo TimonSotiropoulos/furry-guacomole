@@ -9,10 +9,15 @@ export default class GameBoard extends React.Component {
 
     render() {
 
+
+        var canvasDom = document.createElement('canvas');
+        canvasDom.className = "gameBoard";
+        var context = canvasDom.getContext("2d");
+        context.fillStyle = "red";
+        context.fillRect(10, 10, 100, 50);
+
         return (
-            <div className="gameBoard">
-                
-            </div>
+            {canvasDom}
         );
     }
 }
