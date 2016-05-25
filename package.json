@@ -13,8 +13,10 @@
     "debug": "^2.2.0",
     "ejs": "^2.3.4",
     "express": "^4.13.3",
+    "konva": "^0.13.0",
     "morgan": "^1.6.1",
-    "react": "^0.13.3",
+    "react": "^15.0.1",
+    "react-konva": "^0.6.7",
     "serve-favicon": "^2.3.0",
     "vinyl": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
